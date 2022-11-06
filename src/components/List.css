@@ -1,0 +1,31 @@
+
+#grocery-list{
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+#title{
+    width: 50%;
+    margin-left:25% ;
+}
+
+#list{
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+#data{
+    width:70%;
+    margin-left: 15%;
+    background: #148affb7;
+}
+#add{
+    margin-left: 44%;
+}
+
+#navbar{
+    background-color: #0c1a28;
+    height: 80px;
+}
