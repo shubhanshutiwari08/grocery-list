@@ -1,32 +1,32 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
-import { useState } from "react";
+// import { useState } from "react";
 import Basket from './basketnav.png'
 
 
 export default function Navbar(props) {
 
-  const [mystyle,setMyStyle] =  useState({
-    color:'black',
-    backgroundColor:'white'
-  })
-  const [btntext,setBtnText] = useState("Enable Dark Mode")
-  const changeMode = ()=>{
-    if(mystyle.color === 'black'){
-        setMyStyle({
-            color:'white',
-            backgroundColor:'black',
-        })
-        setBtnText("Enable Light Mode")
-    }
-    else{
-        setMyStyle({
-            color:'black',
-            backgroundColor:'white'
-        })
-        setBtnText("Enable Dark Mode")
-    }
-}
+//   const [mystyle,setMyStyle] =  useState({
+//     color:'black',
+//     backgroundColor:'white'
+//   })
+//   const [btntext,setBtnText] = useState("Enable Dark Mode")
+//   const changeMode = ()=>{
+//     if(mystyle.color === 'black'){
+//         setMyStyle({
+//             color:'white',
+//             backgroundColor:'black',
+//         })
+//         setBtnText("Enable Light Mode")
+//     }
+//     else{
+//         setMyStyle({
+//             color:'black',
+//             backgroundColor:'white'
+//         })
+//         setBtnText("Enable Dark Mode")
+//     }
+// }
 
 
 
@@ -46,12 +46,12 @@ export default function Navbar(props) {
           <a className="nav-link active"  href="/grocerylist" >Grocery List</a>
         </li>
       </ul>
-      <form className="d-flex" role="search">
+      {/* <form className="d-flex" role="search">
         <div class="form-check form-switch">
           <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
           <label class="form-check-label text-white"  for="flexSwitchCheckDefault" onClick={changeMode}>{btntext}</label>
         </div>
-      </form>
+      </form> */}
     </div>
   </div>
 </nav>
